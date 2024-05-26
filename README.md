@@ -37,6 +37,10 @@ At the moment the installation is manual :).
 5. Change button visibility for easy access.
 
     ![Install7](/Res/Install7.png)
+    
+    Result
+    
+    ![Install8](/Res/Install8.png)
 
 ## Usage
 
