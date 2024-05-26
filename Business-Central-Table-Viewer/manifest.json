@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Business Central Table Viewer",
+  "description": "Displays Business Central table information based on Table ID.",
+  "version": "1.0",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "permissions": ["activeTab"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
