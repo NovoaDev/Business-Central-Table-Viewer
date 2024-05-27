@@ -2,12 +2,15 @@
 
 ## Overview
 
-The Business Central Table Viewer Extension is a simple browser extension for Microsoft Edge that allows users to quickly view data from tables in Dynamics 365 Business Central. By entering the table ID, users can open a new tab with the table's information.
+After a week of "disconnecting" on the Camino de Santiago, without a computer nearby and catching snippets of the Build conference, I was really eager to write some code—anything at all, even if it didn't make much sense.
 
-This code is inspired/copied from the https://github.com/StefanMaron/OpenPageInspection repository, specifically from this pull request
-https://github.com/StefanMaron/OpenPageInspection/pull/1 with some modifications.
+So, as soon as I got home, to satisfy this urge and sleep peacefully, I decided to work for a while on a small browser extension for Microsoft Edge. This extension allows users to quickly view data from tables in Dynamics 365 Business Central. By entering the table ID, users can open a new tab with the corresponding information.
 
-Since it is something that I use in my day to day I decided to take it out to a separate extension that contains that unique functionality, I share it in case it is useful to someone else.
+A large part of the code is inspired/copied from another repository: https://github.com/StefanMaron/OpenPageInspection. Although at the time I submitted a pull request to see if the functionality could be added to the tool (https://github.com/StefanMaron/OpenPageInspection/pull/1), after using it almost daily, I wanted to make some changes but hadn't found the time. So now I’m killing two birds with one stone: I’m creating this functionality as a standalone extension, applying some modifications I wanted to make, and sleeping peacefully. :)
+
+I’m sharing the link here in case it can be useful to someone else.
+
+PS: At the moment, it only has manual installation. :3
 
 ## Use case
 
@@ -39,7 +42,7 @@ At the moment the installation is manual :).
     ![Install7](/Res/Install7.png)
     
     Result
-    
+
     ![Install8](/Res/Install8.png)
 
 ## Usage
